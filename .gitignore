@@ -1,0 +1,23 @@
+# Archivos de entorno virtual
+venv/
+.env
+
+# Configuración de bases de datos locales
+*.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Archivos de caché de Django
+*.log
+db.sqlite3
+/media
+/static
+/migrations/
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.iml
+.DS_Store
