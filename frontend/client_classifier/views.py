@@ -22,7 +22,7 @@ def classify_client(request):
         data = response.json()
 
         color = data.get("color", "Error")
-        bootstrap_color = BOOTSTRAP_COLORS.get(color, "secondary")  # Obtener color de Bootstrap
+        bootstrap_color = BOOTSTRAP_COLORS.get(color, "secondary")  
 
         return render(request, "result.html", {"color": bootstrap_color, "text_color": color})
 
