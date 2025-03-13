@@ -2,7 +2,7 @@ import requests
 from django.shortcuts import render
 from django.http import JsonResponse
 
-FASTAPI_URL = "http://127.0.0.1:8001/api/classify/"
+FASTAPI_URL = "http://18.191.118.50:8001/api/classify/"
 
 # Diccionario de colores de Bootstrap
 BOOTSTRAP_COLORS = {
